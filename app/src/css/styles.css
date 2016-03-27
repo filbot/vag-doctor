@@ -3,7 +3,7 @@ body {
   background-color: #1818B2;
   font-size: 18px;
 }
-.app {
+.app-container {
   height: 100vh;
   display: flex;
   flex-direction: column;
