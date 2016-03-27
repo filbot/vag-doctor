@@ -1,10 +1,14 @@
 import React from "react";
-
+import {Link} from "react-router";
 
 export default class Footer extends React.Component {
   render() {
     return (
-      <footer>&#60;ENTER&#62; toggles selection | &#60;F12&#62; saves &amp; exits | &#60;ESC&#62; exits without save</footer>
+      <footer>
+        <Link to='howto'>how to | ></Link>
+        <Link to='contact'>contact us | ></Link>
+        <Link to='video'>instructional video save></Link>
+      </footer>
     );
   }
 }
