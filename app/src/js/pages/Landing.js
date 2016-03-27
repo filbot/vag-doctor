@@ -4,7 +4,7 @@ import {Link} from "react-router";
 export default class Landing extends React.Component {
   render() {
     return (
-      <div>
+      <div class="menu-container">
         <p>
           We know Coming your VAG can be difficult and time consuming, let us make it easier for you. Pick the car you have, the things you want to modify and let us prepare all the needed codes.
         </p>

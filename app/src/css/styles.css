@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   background-color: #B2B2B2;
   max-width: 50%;
-  padding: 15px;
+  padding: 15px 15px 30px 15px;
   box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
   outline: solid thin;
   outline-offset: -10px;
@@ -29,10 +29,15 @@ body {
   display: flex;
   align-content: space-around;
 }
-footer a {
+.button-container.contact-button {
+  justify-content: center;;
+}
+footer {
   text-align: center;
-  color: #FFF;
   margin: 15px 0;
+}
+footer a {
+  color: #FFF;
 }
 .menu-container a {
   margin: 5px 20px 5px 5px;
