@@ -5,9 +5,9 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <Link to='howto'>how to | ></Link>
-        <Link to='contact'>contact us | ></Link>
-        <Link to='video'>instructional video save></Link>
+        <Link to='/'>Start Over | </Link>
+        <Link to='howto'>How To | </Link>
+        <Link to='contact'>Contact Us</Link>
       </footer>
     );
   }
