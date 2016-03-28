@@ -6,11 +6,12 @@ export default class VehicleCode extends React.Component {
   }
 
   render() {
-    const {description} = this.props;
+    const {selected, description} = this.props;
+    const icon = selected ? "x" : " "
 
     return (
       <li>
-        <span>{description}</span>
+        <span>[{icon}] {description}</span>
       </li>
     );
   }

@@ -25,19 +25,44 @@ body {
   outline: solid thin;
   outline-offset: -10px;
 }
+.menu-container ul {
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.menu-container li {
+  list-style: none;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+.menu-container li:hover {
+  background-color: #1818B2;
+  color: #B2B2B2;
+}
+.clear-button {
+  color: #B21818;
+}
 .button-container {
   display: flex;
+  justify-content: center;
   align-content: space-around;
-}
-.button-container.contact-button {
-  justify-content: center;;
 }
 footer {
   text-align: center;
-  margin: 15px 0;
+  margin: 15px 0 30px;
+  color: #FFF;
 }
 footer a {
   color: #FFF;
+  text-decoration: none;
+}
+footer span {
+  margin: 0 5px;
+}
+.selection-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .menu-container a {
   margin: 5px 20px 5px 5px;
