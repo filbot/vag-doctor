@@ -11,7 +11,7 @@ export default class VehicleCode extends React.Component {
 
   handleClick () {
     var selected = !this.state.isSelected;
-    this.setState({ isSelected: selected });
+    this.setState({ isSelected: true });
   }
 
   render() {
