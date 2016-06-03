@@ -83,3 +83,7 @@ p {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
+.clear-selections-button {
+  cursor: pointer;
+  color: #b21818;
+}
