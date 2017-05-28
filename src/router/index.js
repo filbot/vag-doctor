@@ -1,15 +1,22 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Hello from '@/components/Hello';
+import ModelSelection from '@/components/ModelSelection';
+import ModelSelected from '@/components/ModelSelected';
 
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello,
+      name: 'model-selection',
+      component: ModelSelection,
+    },
+    {
+      path: '/a4',
+      name: 'model-selected',
+      component: ModelSelected,
     },
   ],
 });
