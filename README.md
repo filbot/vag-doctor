@@ -1,2 +1,0 @@
-# vag-doctor
-VAGCom tool
