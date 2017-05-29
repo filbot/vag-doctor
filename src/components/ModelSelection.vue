@@ -2,9 +2,9 @@
   <div class="model-selection">
     <p class="panel-body">{{ msg }}</p>
     <div class="btn-group">
-      <router-link to="/a4" class="btn btn-default">A4 (B8)</router-link>
-      <router-link to="/a4" class="btn btn-default">S4 (B8)</router-link>
-      <router-link to="/a4" class="btn btn-default">Allroad (B8)</router-link>
+      <router-link to="/a4"><v-btn class="btn-item">A4 (B8)</v-btn></router-link>
+      <router-link to="/a4"><v-btn class="btn-item">S4 (B8)</v-btn></router-link>
+      <router-link to="/a4"><v-btn class="btn-item">Allroad (B8)</v-btn></router-link>
     </div>
   </div>
 </template>
@@ -22,8 +22,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-a {
-  color: #42b983;
+.panel-body {
+  font-size: 16px;
 }
 
 .model-selection {
@@ -38,10 +38,20 @@ a {
 
 .btn-group {
   margin-top: 2rem;
-  margin-bottom: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 0 3rem;
+}
+
+.btn-group a {
+  width: 100%;
+}
+
+.btn-item {
+  margin-bottom: 2rem;
+  background-color: #4fc08d;
   width: 100%;
 }
 </style>
